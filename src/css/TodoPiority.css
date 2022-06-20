@@ -1,0 +1,65 @@
+.todoPiorityContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.todoPiorityContainer .piorityText {
+  -webkit-box-flex: .5;
+      -ms-flex: .5;
+          flex: .5;
+  background: #69a0f3;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: .2rem .5rem;
+  border-radius: 3rem;
+}
+
+.todoPiorityContainer .piorityText p {
+  color: #ECECEC;
+}
+
+.todoPiorityContainer select {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 1px solid #69a0f3;
+  padding: 1rem;
+  border-radius: 3rem;
+  text-align: center;
+  color: #ECECEC;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #339900;
+}
+
+.todoPiorityContainer select option {
+  color: #ECECEC;
+}
+
+.todoPiorityContainer select option:nth-child(1) {
+  background-color: #339900 !important;
+}
+
+.todoPiorityContainer select option:nth-child(2) {
+  background-color: #FFCD06 !important;
+}
+
+.todoPiorityContainer select option:nth-child(3) {
+  background-color: #CC3300 !important;
+}

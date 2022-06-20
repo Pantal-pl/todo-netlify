@@ -1,0 +1,42 @@
+.todoTitleContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  & .todoTitle {
+    width: 60vw;
+    height: 8vh;
+    padding: 1rem 2rem;
+    background: #69a0f3;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    & .todoTitleInput {
+      width: 100%;
+      background: transparent;
+      color: #ececec;
+      border: none;
+      border-bottom: 2px solid #ececec;
+      appearance: none;
+      font-size: 16px;
+      border-radius: 0;
+      &::placeholder {
+        color: #ececec;
+      }
+    }
+  }
+  & .addButton {
+    width: 5rem;
+    aspect-ratio: 1/1;
+    font-size: 2rem;
+    border-radius: 100%;
+    border: none;
+    color: #ececec;
+    display: grid;
+    place-items: center;
+    background: #69a0f3;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,16 @@
+.todoInformation {
+  padding: 1rem;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  & #LowSelect {
+    background-color: #339900;
+  }
+  & #MediumSelect {
+    background-color: #ffcd06;
+  }
+  & #HighSelect {
+    background-color: #cc3300;
+  }
+  
+}

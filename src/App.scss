@@ -1,0 +1,8 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    @media screen and (min-width: 600px) {
+        width:60%;
+      }
+}

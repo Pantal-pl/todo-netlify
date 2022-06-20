@@ -1,0 +1,40 @@
+.todoDescriptionContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.todoDescriptionContainer .descriptionText {
+  background: #69a0f3;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: .6rem .5rem;
+  border-radius: 3rem;
+}
+
+.todoDescriptionContainer .descriptionText p {
+  color: #ECECEC;
+}
+
+.todoDescriptionContainer .descriptionInput {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 1px solid #69a0f3;
+  border-radius: 3rem;
+  padding: 0.9rem;
+  font-size: 1rem;
+}

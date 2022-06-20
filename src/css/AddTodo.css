@@ -1,0 +1,13 @@
+.addButton {
+  width: 5rem;
+  aspect-ratio: 1/1;
+  font-size: 2rem;
+  border-radius: 100%;
+  border: none;
+  color: #ececec;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: #69a0f3;
+  cursor: pointer;
+}
